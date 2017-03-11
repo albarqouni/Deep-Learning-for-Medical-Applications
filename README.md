@@ -1,5 +1,4 @@
-# DLMA
-Deep Learning Papers on Medical Image Analysis
+# Deep Learning Papers on Medical Image Analysis
 
 ## Background
 To the best of our knowledge, this is the first list of deep learning papers on medical applications. There are couple of lists for deep learning papers in general, or computer vision, for example [Awesome Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers.git). In this list, I try to classify the papers based on their deep learning techniques and learning methodology. I believe this list could be a good starting point for DL researchers on Medical Applications. 
@@ -27,14 +26,15 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 * [AutoEncoders/ Stacked AutoEncoders](#autoencoders--stacked-autoencoders)
 * [Convolutional Neural Networks](#convolutional-neural-networks)
 * [Recurrent Neural Networks](#recurrent-neural-networks)
+* [Generative Adversarial Networks](#generative-adversarial-networks)
 
 ### Medical Applications 
 * [Classification](#classification)
 * [Detection](#detection)
 * [Segmentation](#segmentation)
 * [Registration](#registration)
+* [Annotation](#annotation)
 * [Other tasks](#other-tasks)
-
 
 * * * 
 ### Deep Learning Techniques 
@@ -42,9 +42,12 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 - 
 
 #### Convolutional Neural Networks
-- 
+- [AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images](http://ieeexplore.ieee.org/document/7405343/)
 
 #### Recurrent Neural Networks
+- 
+
+#### Generative Adversarial Networks
 - 
 
 ### Medical Applications 
@@ -52,13 +55,16 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 - 
 
 #### Detection
--
+- 
 
 #### Segmentation
--
+- 
 
 #### Registration
--
+- 
+
+#### Annotation 
+- [AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images](http://ieeexplore.ieee.org/document/7405343/)
 
 #### Other tasks
 - 
