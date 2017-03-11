@@ -50,11 +50,15 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 ### Medical Applications 
 #### Classification
 - 
+
 #### Detection
-- 
+-
+
 #### Segmentation
-- 
+-
+
 #### Registration
-- 
+-
+
 #### Other tasks
 - 
