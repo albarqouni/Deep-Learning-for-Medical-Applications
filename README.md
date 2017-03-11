@@ -52,7 +52,9 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 
 ### Medical Applications 
 #### Classification
-- 
+(X-ray / Knee)
+- [Quantifying Radiographic Knee Osteoarthritis Severity using Deep Convolutional Neural Networks](https://arxiv.org/pdf/1609.02469)
+
 
 #### Detection
 - 
