@@ -32,7 +32,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 ### Medical Applications 
 * [Annotation](#annotation)
 * [Classification](#classification)
-* [Detection](#detection)
+* [Detection/ Localization](#detection--localization)
 * [Segmentation](#segmentation)
 * [Registration](#registration)
 * [Regression](#regression)
@@ -82,8 +82,22 @@ Cytopathology](http://proceedings.spiedigitallibrary.org/proceeding.aspx?article
 
 
 
-#### Detection
-- 
+#### Detection / Localization
+
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
+| 2.5D-CNN   | MRI | Femur | Automated anatomical landmark detection ondistal femur surface using convolutional neural network [[pdf]](http://webpages.uncc.edu/~szhang16/paper/ISBI15_knee.pdf) | [OAI](https://oai.epi-ucsf.org/datarelease/)| ISBI | 2015|
+| CNN   | US | Fetal | Standard Plane Localization in Fetal Ultrasound via Domain Transferred Deep Neural Networks [[pdf]](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7090943) | | IEEE-JBHI | 2015|
+| CNN   | X-ray, MRI | Hand | Regressing Heatmaps for Multiple Landmark Localization using CNNs [[pdf]](https://www.tugraz.at/fileadmin/user_upload/Institute/ICG/Images/team_bischof/mib/paper_pdfs/MICCAI2016_CNNHeatmaps.pdf) | [DHADS](http://www.ipilab.org/BAAweb/)| MICCAI | 2016|
+| CNN   | MRI, US, CT | - | An artificial agent for anatomical landmark detection in medical images [[pdf]](https://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2016/Ghesu16-AAA.pdf) | [SATCOM](http://stacom.cardiacatlas.org/lv-landmark-detection-challenge/)| MICCAI | 2016|
+| MLP   | CT | head-neck | 3D Deep Learning for Efficient and Robust Landmark Detection in Volumetric Data [[pdf]](https://pdfs.semanticscholar.org/6cd3/ea4361e035969e6cf819422d0262f7c0a186.pdf) | | MICCAI | 2015|
+| FCN   | US | Fetal | Real-time Standard Scan Plane Detection and Localisation in Fetal Ultrasound using Fully Convolutional Neural Networks [[pdf]](https://www.doc.ic.ac.uk/~bkainz/publications/Kainz_MICCAI2016b.pdf) | | MICCAI | 2016|
+| LSTM   | US | Fetal | Automatic Fetal Ultrasound Standard Plane Detection Using Knowledge Transferred Recurrent Neural Networks [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-24553-9_62) | | MICCAI | 2015|
+| CNN+LSTM   | MRI | Heart | Recognizing end-diastole and end-systole frames via deep temporal regression network [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-46726-9_31) | | MICCAI | 2016|
+| M-CNN  | MRI | Heart | Improving Computer-Aided Detection Using Convolutional Neural Networks and Random View Aggregation Neural Networks [[pdf]](http://www.cs.jhu.edu/~lelu/publication/07279156.pdf) | | IEEE-TMI | 2016|
+| CNN  | PET/CT | Heart | Automated detection of pulmonary nodules in PET/CT images: Ensemble false-positive reduction using a convolutional neural network technique Neural Networks [[pdf]](http://onlinelibrary.wiley.com/doi/10.1118/1.4948498/epdf) | | MP | 2016|
+| 3D-CNN  | MRI | Brain | Automatic Detection of Cerebral Microbleeds From MR Images via 3D Convolutional Neural Networks [[pdf]](http://ieeexplore.ieee.org/document/7403984/#full-text-section) | | IEEE-TMI | 2016|
+| CNN  | X-ray, MG | - | Self-Transfer Learning for Fully Weakly Supervised Lesion Localization [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-46723-8_28) | [NIH,China](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6663723), [DDSM,MIAS](http://www.mammoimage.org/databases/)  | MICCAI | 2016|
 
 #### Segmentation
 - 
@@ -92,7 +106,10 @@ Cytopathology](http://proceedings.spiedigitallibrary.org/proceeding.aspx?article
 - 
 
 #### Regression
-- 
+
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
+| 2.5D-CNN   | MRI | | Automated anatomical landmark detection ondistal femur surface using convolutional neural network [[pdf]](http://webpages.uncc.edu/~szhang16/paper/ISBI15_knee.pdf) | [OAI](https://oai.epi-ucsf.org/datarelease/)| ISBI | 2015|
 
 
 #### Other tasks
