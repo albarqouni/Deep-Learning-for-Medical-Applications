@@ -60,7 +60,8 @@ Cytopathology](http://proceedings.spiedigitallibrary.org/proceeding.aspx?article
 #### Annotation 
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
-| M-CNN   | Histology | Breast | AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images [[pdf]](http://ieeexplore.ieee.org/document/7405343/) | [AMIDA](amida13.isi.uu.nl)| IEEE-TMI | 2016|  
+| M-CNN   | Histology | Breast | AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images [[pdf]](http://ieeexplore.ieee.org/document/7405343/) | [AMIDA](amida13.isi.uu.nl)| IEEE-TMI | 2016| 
+| NN | Histology | N/A | Deep learning of feature representation with multiple instance learning for medical image analysis [[pdf]]() | | ICASSP| 2014|
 
 #### Classification
 
@@ -73,6 +74,11 @@ Cytopathology](http://proceedings.spiedigitallibrary.org/proceeding.aspx?article
 | M-CNN | CT | Lung | Multi-scale Convolutional Neural Networks for Lung Nodule Classification [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-19992-4_46) | [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)| IPMI| 2015|
 | M-CNN | RGB | Skin| Multi-resolution-tract CNN with hybrid pretrained and skin-lesion trained layers [[pdf]](http://www.cs.sfu.ca/~hamarneh/ecopy/miccai_mlmi2016a.pdf)|[Dermofit](https://licensing.eri.ed.ac.uk/i/software/dermofit-image-library.html)| MLMI | 2016|
 | CNN+RNN| RGB | Eye | Automatic Feature Learning to Grade Nuclear Cataracts Based on Deep Learning [[pdf]](https://pdfs.semanticscholar.org/2650/44769c0a35228d8512570f7ec4cc38e1c511.pdf)| | IEEE-TBME | 2015|
+| CNN | RGB | Skin | Towards Automated Melanoma Screening: Exploring Transfer Learning Schemes [[pdf]](https://arxiv.org/pdf/1609.01228.pdf)| [EDRA](http://dermoscopy.org/), [DB Kaggle](https://www.kaggle.com/c/diabetic-retinopathy-detection) | arXiv | 2016|
+| M-CNN | CT | Lung | Pulmonary Nodule Detection in CT Images: False Positive Reduction Using Multi-View Convolutional Networks [[pdf]](https://www.researchgate.net/profile/Geert_Litjens/publication/296624579_Pulmonary_Nodule_Detection_in_CT_Images_False_Positive_Reduction_Using_Multi-View_Convolutional_Networks/links/57f254cf08ae8da3ce517202.pdf) |  [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI), [ANODE09](https://anode09.grand-challenge.org/), [DLCST](https://clinicaltrials.gov/ct2/show/study/NCT00496977) | IEEE-TMI | 2016|
+| 3D-CNN | MRI | Brain | 3D Deep Learning for Multi-modal Imaging-Guided Survival Time Prediction of Brain Tumor Patients [[pdf]](http://www.unc.edu/~eadeli/publications/Dong_MICCAI2016.pdf)| |MICCAI | 2016|
+| SAE | US, CT | Breast, Lung | Computer-Aided Diagnosis with Deep Learning Architecture: Applications to Breast Lesions in US Images and Pulmonary Nodules in CT Scans [[pdf]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4832199/pdf/srep24454.pdf) | [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)| Nature | 2016| 
+| CAE | MG | Breast |Unsupervised deep learning applied to breast density segmentation and mammographic risk scoring [[pdf]](http://image.diku.dk/igel/paper/UDLAtBDSaMRS.pdf) | | IEEE-TMI | 2016| 
 
 
 
