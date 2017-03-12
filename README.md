@@ -5,11 +5,11 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 
 ## Criteria
 
-1. A list of **top deep learning papers** published since 2016.
-2. Papers are collected from peer-reviewed journals and high reputed conferences. 
-3. Additional keywords are required for any paper mainly the image modality and medical area, for example (X-ray, Tuberculosis). 
+1. A list of **top deep learning papers** published since 2015.
+2. Papers are collected from peer-reviewed journals and high reputed conferences. However, it may have recent papers on arXiv. 
+3. A meta-data is required along with the paper, i.e. Deep Learning technique, Imaging Modality, Area of Interest, Clinical Database (DB). 
 
-*List of Journals and Conferences:*
+*List of Journals / Conferences (J/C):*
 
 - **[Medical Image Analysis (MedIA)](https://www.journals.elsevier.com/medical-image-analysis/)**
 - **[IEEE Transaction on Medical Imaging (IEEE-TMI)](https://ieee-tmi.org/)**
@@ -20,6 +20,29 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 - **International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)**
 - **International Conference on Information Processing in Computer-Assisted Interventions (IPCAI)**
 - **IEEE International Symposium on Biomedical Imaging (ISBI)**
+
+## Shortcuts
+
+*Deep Learning Techniques:*
+
+- NN: Neural Networks 
+- MLP: Multilayer Perceptron 
+- RBM: Restricted Boltzmann Machine
+- CNN: Convolutional Neural Networks 
+- RNN: Recurrent Neural Networks
+- LSTM: Long Short Term Memory
+- M-CNN: Multi-Scale/View/Stream CNN
+- FCN: Fully Convolutional Networks
+
+*Imaging Modality:*
+
+- US: Ultrasound 
+- MR/MRI: Magnetic Resonance Imaging 
+- PET: Positron Emission Tomography
+- MG: Mammography
+- CT: Computed Tompgraphy
+- H&E: Hematoxylin & Eosin Histology Images
+- RGB: Optical Images 
 
 
 ## Table of Contents
@@ -60,15 +83,15 @@ Cytopathology](http://proceedings.spiedigitallibrary.org/proceeding.aspx?article
 #### Annotation 
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
-| M-CNN   | Histology | Breast | AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images [[pdf]](http://ieeexplore.ieee.org/document/7405343/) | [AMIDA](amida13.isi.uu.nl)| IEEE-TMI | 2016| 
-| NN | Histology | N/A | Deep learning of feature representation with multiple instance learning for medical image analysis [[pdf]]() | | ICASSP| 2014|
+| M-CNN   | H&E | Breast | AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images [[pdf]](http://ieeexplore.ieee.org/document/7405343/) | [AMIDA](amida13.isi.uu.nl)| IEEE-TMI | 2016| 
+| NN | H&E | N/A | Deep learning of feature representation with multiple instance learning for medical image analysis [[pdf]]() | | ICASSP| 2014|
 
 #### Classification
 
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
 | CNN   | X-ray | Knee | Quantifying Radiographic Knee Osteoarthritis Severity using Deep Convolutional Neural Networks [[pdf]](https://arxiv.org/pdf/1609.02469) | [O.E.1](https://oai.epi-ucsf.org/datarelease/)| arXiv | 2016|
-| CNN | Histology | Thyroid | A Deep Semantic Mobile Application for Thyroid Cytopathology [[pdf]](http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2513164) | | SPIE | 2016|
+| CNN | H&E | Thyroid | A Deep Semantic Mobile Application for Thyroid Cytopathology [[pdf]](http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2513164) | | SPIE | 2016|
 | 3D-CNN | MRI | Brain | Predicting Alzheimer's disease: a neuroimaging study with 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1502.02506) | [ADNI](adni.loni.usc.edu)| arXiv | 2015 |
 | 3D-CNN, 3D-CAE | MRI | Brain | Alzheimer's Disease Diagnostics by a Deeply Supervised Adaptable 3D Convolutional Network [[pdf]](https://arxiv.org/pdf/1607.00556.pdf) | [ADNI](adni.loni.usc.edu) | arXiv| 2016
 | M-CNN | CT | Lung | Multi-scale Convolutional Neural Networks for Lung Nodule Classification [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-19992-4_46) | [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)| IPMI| 2015|
