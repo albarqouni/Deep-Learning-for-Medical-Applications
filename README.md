@@ -58,18 +58,21 @@ Cytopathology](http://proceedings.spiedigitallibrary.org/proceeding.aspx?article
 ### Medical Applications 
 
 #### Annotation 
-| DL Technique | Imaging Modality | Clinical Application | Paper Title| Database | Journal/Conference | Year |
-| ------ | ----------- | -----------| ----------- | ----------- |----------- | ---- |
-| CNN   | Histology | Breast | AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images [[pdf]](http://ieeexplore.ieee.org/document/7405343/) | [AMIDA](amida13.isi.uu.nl)| IEEE-TMI | 2016|  
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
+| M-CNN   | Histology | Breast | AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images [[pdf]](http://ieeexplore.ieee.org/document/7405343/) | [AMIDA](amida13.isi.uu.nl)| IEEE-TMI | 2016|  
 
 #### Classification
 
-| DL Technique | Imaging Modality | Clinical Application | Paper Title| Database | Journal/Conference | Year |
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
 | CNN   | X-ray | Knee | Quantifying Radiographic Knee Osteoarthritis Severity using Deep Convolutional Neural Networks [[pdf]](https://arxiv.org/pdf/1609.02469) | [O.E.1](https://oai.epi-ucsf.org/datarelease/)| arXiv | 2016|
 | CNN | Histology | Thyroid | A Deep Semantic Mobile Application for Thyroid Cytopathology [[pdf]](http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2513164) | | SPIE | 2016|
 | 3D-CNN | MRI | Brain | Predicting Alzheimer's disease: a neuroimaging study with 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1502.02506) | [ADNI](adni.loni.usc.edu)| arXiv | 2015 |
 | 3D-CNN, 3D-CAE | MRI | Brain | Alzheimer's Disease Diagnostics by a Deeply Supervised Adaptable 3D Convolutional Network [[pdf]](https://arxiv.org/pdf/1607.00556.pdf) | [ADNI](adni.loni.usc.edu) | arXiv| 2016
+| M-CNN | CT | Lung | Multi-scale Convolutional Neural Networks for Lung Nodule Classification [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-19992-4_46) | [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)| IPMI| 2015|
+| M-CNN | RGB | Skin| Multi-resolution-tract CNN with hybrid pretrained and skin-lesion trained layers [[pdf]](http://www.cs.sfu.ca/~hamarneh/ecopy/miccai_mlmi2016a.pdf)|[Dermofit](https://licensing.eri.ed.ac.uk/i/software/dermofit-image-library.html)| MLMI | 2016|
+
 
 
 #### Detection
