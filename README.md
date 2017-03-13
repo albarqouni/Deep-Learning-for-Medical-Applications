@@ -126,9 +126,12 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | CNN  | X-ray, MG | - | Self-Transfer Learning for Fully Weakly Supervised Lesion Localization [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-46723-8_28) | [NIH,China](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6663723), [DDSM,MIAS](http://www.mammoimage.org/databases/)  | MICCAI | 2016|
 | CNN  | RGB | Eye | Fast Convolutional Neural Network Training Using Selective Data Sampling: Application to Hemorrhage Detection in Color Fundus Images [[pdf]](http://ieeexplore.ieee.org/document/7401052/#full-text-section) | [DRD](https://www.kaggle.com/c/diabetic-retinopathy-detection/data), [MESSIDOR](http://www.adcis.net/en/Download-Third-Party/Messidor.html)  | MICCAI | 2016|
 | GAN  | - | - | Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery | | IPMI | 2017|
+| FCN | X-ray | Cardiac | CathNets: Detection and Single-View Depth Prediction of Catheter Electrodes | | MIAR | 2016|
 
 #### Segmentation
-- 
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
+| FCN   | MRI | Head-Neck | Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation [[pdf]](https://arxiv.org/pdf/1603.05959) | | arXiv | 2016 |
 
 #### Registration
 - 
