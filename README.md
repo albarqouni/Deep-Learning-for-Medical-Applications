@@ -128,7 +128,11 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | GAN  | - | - | Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery | | IPMI | 2017|
 
 #### Segmentation
-- 
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
+| U-Net  | - | - | U-net: Convolutional networks for biomedical image segmentation | | MICCAI | 2015|
+
+
 
 #### Registration
 - 
