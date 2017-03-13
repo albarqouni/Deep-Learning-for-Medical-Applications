@@ -103,6 +103,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | SAE | US, CT | Breast, Lung | Computer-Aided Diagnosis with Deep Learning Architecture: Applications to Breast Lesions in US Images and Pulmonary Nodules in CT Scans [[pdf]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4832199/pdf/srep24454.pdf) | [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)| Nature | 2016| 
 | CAE | MG | Breast |Unsupervised deep learning applied to breast density segmentation and mammographic risk scoring [[pdf]](http://image.diku.dk/igel/paper/UDLAtBDSaMRS.pdf) | | IEEE-TMI | 2016| 
 | GCN | MRI | Brain | Spectral Graph Convolutions for Population-based Disease Prediction [[pdf]](http://arxiv.org/abs/1703.03020) | [ADNI](http://adni.loni.usc.edu), [ABIDE](http://preprocessed-connectomes-project.org/abide/) | arXiv | 2017| 
+| CNN | RGB | Skin | Dermatologist-level classification of skin cancer with deep neural networks | | Nature | 2017 |
 
 
 
@@ -126,13 +127,13 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | CNN  | X-ray, MG | - | Self-Transfer Learning for Fully Weakly Supervised Lesion Localization [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-46723-8_28) | [NIH,China](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6663723), [DDSM,MIAS](http://www.mammoimage.org/databases/)  | MICCAI | 2016|
 | CNN  | RGB | Eye | Fast Convolutional Neural Network Training Using Selective Data Sampling: Application to Hemorrhage Detection in Color Fundus Images [[pdf]](http://ieeexplore.ieee.org/document/7401052/#full-text-section) | [DRD](https://www.kaggle.com/c/diabetic-retinopathy-detection/data), [MESSIDOR](http://www.adcis.net/en/Download-Third-Party/Messidor.html)  | MICCAI | 2016|
 | GAN  | - | - | Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery | | IPMI | 2017|
+| FCN | X-ray | Cardiac | CathNets: Detection and Single-View Depth Prediction of Catheter Electrodes | | MIAR | 2016|
 
 #### Segmentation
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
 | U-Net  | - | - | U-net: Convolutional networks for biomedical image segmentation | | MICCAI | 2015|
-
-
+| FCN   | MRI | Head-Neck | Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation [[pdf]](https://arxiv.org/pdf/1603.05959) | | arXiv | 2016 |
 
 #### Registration
 - 
