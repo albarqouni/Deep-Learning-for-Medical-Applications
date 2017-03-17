@@ -140,6 +140,8 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | FCN   | MRI | Liver-Liver Tumor | SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1702.05941) | | ISBI | 2017 |
 
 #### Registration
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
 | 3D-CNN | CT | Spine | An Artificial Agent for Robust Image Registration [[pdf]](https://arxiv.org/pdf/1611.10336.pdf) | | | 2016 |
 
 #### Regression
