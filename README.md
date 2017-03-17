@@ -135,11 +135,12 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | U-Net  | - | - | U-net: Convolutional networks for biomedical image segmentation | | MICCAI | 2015|
 | FCN   | MRI | Head-Neck | Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation [[pdf]](https://arxiv.org/pdf/1603.05959) | | arXiv | 2016 |
 | FCN   | CT | Liver-Liver Tumor | Automatic Liver and Lesion Segmentation in CT Using Cascaded Fully Convolutional Neural Networks and 3D Conditional Random Fields  [[pdf]](https://arxiv.org/abs/1610.02177) | | MICCAI | 2016 |
+| 3D-CNN | MRI | Spine | Model-Based Segmentation of Vertebral Bodies from MR Images with 3D CNNs | | MICCAI | 2016 |
 | FCN   | CT | Liver-Liver Tumor | Automatic Liver and Tumor Segmentation of CT and MRI Volumes using Cascaded Fully Convolutional Neural Networks [[pdf]](https://arxiv.org/abs/1702.05970) | | arXiv | 2017 |
 | FCN   | MRI | Liver-Liver Tumor | SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1702.05941) | | ISBI | 2017 |
 
 #### Registration
-- 
+| 3D-CNN | CT | Spine | An Artificial Agent for Robust Image Registration [[pdf]](https://arxiv.org/pdf/1611.10336.pdf) | | | 2016 |
 
 #### Regression
 
