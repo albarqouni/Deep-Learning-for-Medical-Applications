@@ -138,6 +138,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | 3D-CNN | MRI | Spine | Model-Based Segmentation of Vertebral Bodies from MR Images with 3D CNNs | | MICCAI | 2016 |
 | FCN   | CT | Liver-Liver Tumor | Automatic Liver and Tumor Segmentation of CT and MRI Volumes using Cascaded Fully Convolutional Neural Networks [[pdf]](https://arxiv.org/abs/1702.05970) | | arXiv | 2017 |
 | FCN   | MRI | Liver-Liver Tumor | SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1702.05941) | | ISBI | 2017 |
+| 3D-CNN | Diffusion MRI | Brain | q-Space Deep Learning: Twelve-Fold Shorter and Model-Free Diffusion MRI [[pdf]](http://ieeexplore.ieee.org/document/7448418/) (Section II.B.2) | | IEEE-TMI | 2016 |
 
 #### Registration
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
@@ -149,7 +150,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
 | 2.5D-CNN   | MRI | | Automated anatomical landmark detection ondistal femur surface using convolutional neural network [[pdf]](http://webpages.uncc.edu/~szhang16/paper/ISBI15_knee.pdf) | [OAI](https://oai.epi-ucsf.org/datarelease/)| ISBI | 2015|
-
+| 3D-CNN | Diffusion MRI | Brain | q-Space Deep Learning: Twelve-Fold Shorter and Model-Free Diffusion MRI [[pdf]](http://ieeexplore.ieee.org/document/7448418/) (Section II.B.1) | [[HCP]](http://www.humanconnectome.org/) and other | IEEE-TMI | 2016 |
 
 #### Other tasks
 - 
