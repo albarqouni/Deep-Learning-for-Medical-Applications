@@ -104,7 +104,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | 3D-CNN | MRI | Brain | 3D Deep Learning for Multi-modal Imaging-Guided Survival Time Prediction of Brain Tumor Patients [[pdf]](http://www.unc.edu/~eadeli/publications/Dong_MICCAI2016.pdf)| |MICCAI | 2016|
 | SAE | US, CT | Breast, Lung | Computer-Aided Diagnosis with Deep Learning Architecture: Applications to Breast Lesions in US Images and Pulmonary Nodules in CT Scans [[pdf]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4832199/pdf/srep24454.pdf) | [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)| Nature | 2016| 
 | CAE | MG | Breast |Unsupervised deep learning applied to breast density segmentation and mammographic risk scoring [[pdf]](http://image.diku.dk/igel/paper/UDLAtBDSaMRS.pdf) | | IEEE-TMI | 2016| 
-| MIL-CNN | MG | Breast |Deep multi-instance networks with sparse label assignment for whole mammogram classification [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_69) | | MICCAI | 2017| 
+| MIL-CNN | MG | Breast |Deep multi-instance networks with sparse label assignment for whole mammogram classification [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_69) | [INbreast](http://medicalresearch.inescporto.pt/breastresearch/index.php/Get_INbreast_Database) | MICCAI | 2017| 
 | GCN | MRI | Brain | Spectral Graph Convolutions for Population-based Disease Prediction [[pdf]](http://arxiv.org/abs/1703.03020) | [ADNI](http://adni.loni.usc.edu), [ABIDE](http://preprocessed-connectomes-project.org/abide/) | arXiv | 2017| 
 | CNN | RGB | Skin | Dermatologist-level classification of skin cancer with deep neural networks | | Nature | 2017 |
 | FCN + CNN  | MRI | Liver-Liver Tumor | SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1702.05941) | | ISBI | 2017 |
@@ -143,7 +143,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | FCN   | CT | Liver-Liver Tumor | Automatic Liver and Tumor Segmentation of CT and MRI Volumes using Cascaded Fully Convolutional Neural Networks [[pdf]](https://arxiv.org/abs/1702.05970) | | arXiv | 2017 |
 | FCN   | MRI | Liver-Liver Tumor | SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1702.05941) | | ISBI | 2017 |
 | 3D-CNN | Diffusion MRI | Brain | q-Space Deep Learning: Twelve-Fold Shorter and Model-Free Diffusion MRI [[pdf]](http://ieeexplore.ieee.org/document/7448418/) (Section II.B.2) | | IEEE-TMI | 2016 |
-| GAN   | MG | Breast Mass | Adversarial Deep Structured Nets for Mass Segmentation from Mammograms [[pdf]](https://arxiv.org/abs/1710.09288) | | ISBI | 2018 |
+| GAN   | MG | Breast Mass | Adversarial Deep Structured Nets for Mass Segmentation from Mammograms [[pdf]](https://arxiv.org/abs/1710.09288) | [INbreast](http://medicalresearch.inescporto.pt/breastresearch/index.php/Get_INbreast_Database), [DDSM-BCRP](http://marathon.csee.usf.edu/Mammography/DDSM/BCRP/) | ISBI | 2018 |
 
 #### Registration
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
