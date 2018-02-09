@@ -34,6 +34,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 - RNN: Recurrent Neural Networks
 - LSTM: Long Short Term Memory
 - M-CNN: Multi-Scale/View/Stream CNN
+- MIL-CNN: Multi-instance Learning CNN
 - FCN: Fully Convolutional Networks
 
 *Imaging Modality:*
@@ -76,7 +77,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 - 
 
 #### Generative Adversarial Networks
-- 
+- [Adversarial Deep Structured Nets for Mass Segmentation from Mammograms](https://arxiv.org/abs/1710.09288)
 
 ### Medical Applications 
 
@@ -99,9 +100,11 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | M-CNN | RGB | Skin| Multi-resolution-tract CNN with hybrid pretrained and skin-lesion trained layers [[pdf]](http://www.cs.sfu.ca/~hamarneh/ecopy/miccai_mlmi2016a.pdf)|[Dermofit](https://licensing.eri.ed.ac.uk/i/software/dermofit-image-library.html)| MLMI | 2016|
 | CNN | RGB | Skin, Eye | Towards Automated Melanoma Screening: Exploring Transfer Learning Schemes [[pdf]](https://arxiv.org/pdf/1609.01228.pdf)| [EDRA](http://dermoscopy.org/), [DRD](https://www.kaggle.com/c/diabetic-retinopathy-detection) | arXiv | 2016|
 | M-CNN | CT | Lung | Pulmonary Nodule Detection in CT Images: False Positive Reduction Using Multi-View Convolutional Networks [[pdf]](https://www.researchgate.net/profile/Geert_Litjens/publication/296624579_Pulmonary_Nodule_Detection_in_CT_Images_False_Positive_Reduction_Using_Multi-View_Convolutional_Networks/links/57f254cf08ae8da3ce517202.pdf) |  [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI), [ANODE09](https://anode09.grand-challenge.org/), [DLCST](https://clinicaltrials.gov/ct2/show/study/NCT00496977) | IEEE-TMI | 2016|
+| 3D-CNN | CT | Lung | DeepLung: Deep 3D Dual Path Nets for Automated Pulmonary Nodule Detection and Classification [[pdf]](https://arxiv.org/abs/1801.09555) |  [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI), [LUNA16](https://luna16.grand-challenge.org/) | IEEE-WACV | 2018|
 | 3D-CNN | MRI | Brain | 3D Deep Learning for Multi-modal Imaging-Guided Survival Time Prediction of Brain Tumor Patients [[pdf]](http://www.unc.edu/~eadeli/publications/Dong_MICCAI2016.pdf)| |MICCAI | 2016|
 | SAE | US, CT | Breast, Lung | Computer-Aided Diagnosis with Deep Learning Architecture: Applications to Breast Lesions in US Images and Pulmonary Nodules in CT Scans [[pdf]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4832199/pdf/srep24454.pdf) | [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)| Nature | 2016| 
 | CAE | MG | Breast |Unsupervised deep learning applied to breast density segmentation and mammographic risk scoring [[pdf]](http://image.diku.dk/igel/paper/UDLAtBDSaMRS.pdf) | | IEEE-TMI | 2016| 
+| MIL-CNN | MG | Breast |Deep multi-instance networks with sparse label assignment for whole mammogram classification [[pdf]](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_69) | [INbreast](http://medicalresearch.inescporto.pt/breastresearch/index.php/Get_INbreast_Database) | MICCAI | 2017| 
 | GCN | MRI | Brain | Spectral Graph Convolutions for Population-based Disease Prediction [[pdf]](http://arxiv.org/abs/1703.03020) | [ADNI](http://adni.loni.usc.edu), [ABIDE](http://preprocessed-connectomes-project.org/abide/) | arXiv | 2017| 
 | CNN | RGB | Skin | Dermatologist-level classification of skin cancer with deep neural networks | | Nature | 2017 |
 | FCN + CNN  | MRI | Liver-Liver Tumor | SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1702.05941) | | ISBI | 2017 |
@@ -128,6 +131,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | CNN  | RGB | Eye | Fast Convolutional Neural Network Training Using Selective Data Sampling: Application to Hemorrhage Detection in Color Fundus Images [[pdf]](http://ieeexplore.ieee.org/document/7401052/#full-text-section) | [DRD](https://www.kaggle.com/c/diabetic-retinopathy-detection/data), [MESSIDOR](http://www.adcis.net/en/Download-Third-Party/Messidor.html)  | MICCAI | 2016|
 | GAN  | - | - | Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery | | IPMI | 2017|
 | FCN | X-ray | Cardiac | CathNets: Detection and Single-View Depth Prediction of Catheter Electrodes | | MIAR | 2016|
+| 3D-CNN | CT | Lung | DeepLung: Deep 3D Dual Path Nets for Automated Pulmonary Nodule Detection and Classification [[pdf]](https://arxiv.org/abs/1801.09555) |  [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI), [LUNA16](https://luna16.grand-challenge.org/) | IEEE-WACV | 2018|
 
 #### Segmentation
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
@@ -139,6 +143,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | FCN   | CT | Liver-Liver Tumor | Automatic Liver and Tumor Segmentation of CT and MRI Volumes using Cascaded Fully Convolutional Neural Networks [[pdf]](https://arxiv.org/abs/1702.05970) | | arXiv | 2017 |
 | FCN   | MRI | Liver-Liver Tumor | SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1702.05941) | | ISBI | 2017 |
 | 3D-CNN | Diffusion MRI | Brain | q-Space Deep Learning: Twelve-Fold Shorter and Model-Free Diffusion MRI [[pdf]](http://ieeexplore.ieee.org/document/7448418/) (Section II.B.2) | | IEEE-TMI | 2016 |
+| GAN   | MG | Breast Mass | Adversarial Deep Structured Nets for Mass Segmentation from Mammograms [[pdf]](https://arxiv.org/abs/1710.09288) | [INbreast](http://medicalresearch.inescporto.pt/breastresearch/index.php/Get_INbreast_Database), [DDSM-BCRP](http://marathon.csee.usf.edu/Mammography/DDSM/BCRP/) | ISBI | 2018 |
 
 #### Registration
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
