@@ -62,6 +62,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 * [Segmentation](#segmentation)
 * [Registration](#registration)
 * [Regression](#regression)
+* [Image Reconstruction and Post-Processing](#https://arxiv.org/abs/1707.05927)
 * [Other tasks](#other-tasks)
 
 * * * 
@@ -159,6 +160,11 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | 2.5D-CNN   | MRI | | Automated anatomical landmark detection ondistal femur surface using convolutional neural network [[pdf]](http://webpages.uncc.edu/~szhang16/paper/ISBI15_knee.pdf) | [OAI](https://oai.epi-ucsf.org/datarelease/)| ISBI | 2015|
 | 3D-CNN | Diffusion MRI | Brain | q-Space Deep Learning: Twelve-Fold Shorter and Model-Free Diffusion MRI [[pdf]](http://ieeexplore.ieee.org/document/7448418/) (Section II.B.1) | [[HCP]](http://www.humanconnectome.org/) and other | IEEE-TMI | 2016 |
 
+#### Image Reconstruction and Post Processing
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
+| CNN | CS-MRI | | A Deep Cascade of Convolutional Neural Networks for Dynamic MR Image Reconstruction [pdf](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8067520) | | IEEE-TMI | 2017 |
+| GAN | CS-MRI | | Deep Generative Adversarial Networks for Compressed Sensing Automates MRI [pdf](https://www.doc.ic.ac.uk/~bglocker/public/mednips2017/med-nips_2017_paper_7.pdf) | | NIPS | 2017 |
 #### Other tasks
 - 
 
