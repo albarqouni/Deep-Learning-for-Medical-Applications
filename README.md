@@ -86,7 +86,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
 | NN | H&E | N/A | Deep learning of feature representation with multiple instance learning for medical image analysis [[pdf]]() | | ICASSP| 2014|
 | M-CNN   | H&E | Breast | AggNet: Deep Learning From Crowds for Mitosis Detection in Breast Cancer Histology Images [[pdf]](http://ieeexplore.ieee.org/document/7405343/) | [AMIDA](amida13.isi.uu.nl)| IEEE-TMI | 2016| 
-
+| FCN | H&E | N/A | Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation [pdf](https://arxiv.org/pdf/1706.04737.pdf)| | MICCAI | 2017 |
 #### Classification
 
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
@@ -144,6 +144,8 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | FCN   | MRI | Liver-Liver Tumor | SurvivalNet: Predicting patient survival from diffusion weighted magnetic resonance images using cascaded fully convolutional and 3D convolutional neural networks [[pdf]](https://arxiv.org/abs/1702.05941) | | ISBI | 2017 |
 | 3D-CNN | Diffusion MRI | Brain | q-Space Deep Learning: Twelve-Fold Shorter and Model-Free Diffusion MRI [[pdf]](http://ieeexplore.ieee.org/document/7448418/) (Section II.B.2) | | IEEE-TMI | 2016 |
 | GAN   | MG | Breast Mass | Adversarial Deep Structured Nets for Mass Segmentation from Mammograms [[pdf]](https://arxiv.org/abs/1710.09288) | [INbreast](http://medicalresearch.inescporto.pt/breastresearch/index.php/Get_INbreast_Database), [DDSM-BCRP](http://marathon.csee.usf.edu/Mammography/DDSM/BCRP/) | ISBI | 2018 |
+| 3D-CNN | CT | Liver | 3D Deeply Supervised Network for Automatic Liver Segmentation from CT Volumes [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46723-8_18.pdf) | | MICCAI | 2017 |
+| 3D-CNN | MRI | Brain | Unsupervised domain adaptation in brain lesion segmentation with adversarial networks [pdf](https://arxiv.org/pdf/1612.08894.pdf ) | | IPMI | 2017
 
 #### Registration
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
