@@ -132,6 +132,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | GAN  | - | - | Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery | | IPMI | 2017|
 | FCN | X-ray | Cardiac | CathNets: Detection and Single-View Depth Prediction of Catheter Electrodes | | MIAR | 2016|
 | 3D-CNN | CT | Lung | DeepLung: Deep 3D Dual Path Nets for Automated Pulmonary Nodule Detection and Classification [[pdf]](https://arxiv.org/abs/1801.09555) |  [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI), [LUNA16](https://luna16.grand-challenge.org/) | IEEE-WACV | 2018|
+| 3D-CNN | CT | Lung | DeepEM: Deep 3D ConvNets with EM for weakly supervised pulmonary nodule detection [[pdf]](https://arxiv.org/abs/1805.05373v1) |  [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI), [LUNA16](https://luna16.grand-challenge.org/) | MICCAI | 2018|
 
 #### Segmentation
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
