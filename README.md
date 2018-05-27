@@ -147,6 +147,7 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | GAN   | MG | Breast Mass | Adversarial Deep Structured Nets for Mass Segmentation from Mammograms [[pdf]](https://arxiv.org/abs/1710.09288) | [INbreast](http://medicalresearch.inescporto.pt/breastresearch/index.php/Get_INbreast_Database), [DDSM-BCRP](http://marathon.csee.usf.edu/Mammography/DDSM/BCRP/) | ISBI | 2018 |
 | 3D-CNN | CT | Liver | 3D Deeply Supervised Network for Automatic Liver Segmentation from CT Volumes [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46723-8_18.pdf) | | MICCAI | 2017 |
 | 3D-CNN | MRI | Brain | Unsupervised domain adaptation in brain lesion segmentation with adversarial networks [pdf](https://arxiv.org/pdf/1612.08894.pdf ) | | IPMI | 2017
+| FCN | FUNDUS | Retina | A Fully Convolutional Neural Network based Structured Prediction Approach Towards the Retinal Vessel Segmentation [pdf](https://arxiv.org/pdf/1611.02064) | | ISBI | 2017
 
 #### Registration
 | Technique | Modality | Area | Paper Title| DB | J/C | Year |
