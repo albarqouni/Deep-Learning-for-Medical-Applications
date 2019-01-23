@@ -167,6 +167,17 @@ To the best of our knowledge, this is the first list of deep learning papers on 
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
 | CNN | CS-MRI | | A Deep Cascade of Convolutional Neural Networks for Dynamic MR Image Reconstruction [pdf](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8067520) | | IEEE-TMI | 2017 |
 | GAN | CS-MRI | | Deep Generative Adversarial Networks for Compressed Sensing Automates MRI [pdf](https://www.doc.ic.ac.uk/~bglocker/public/mednips2017/med-nips_2017_paper_7.pdf) | | NIPS | 2017 |
+
+#### Image synthesis for data augmentation
+| Technique | Modality | Area | Paper Title| DB | J/C | Year |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
+| GAN | RGB (Microscopy) | Red Blood Cells | Red blood cell image generation for data augmentation using Conditional Generative Adversarial Networks [[pdf]](https://arxiv.org/abs/1901.06219) | | arXiv | 2019 |
+| GAN | MRI | Brain | Learning Data Augmentation for Brain Tumor Segmentation with Coarse-to-Fine Generative Adversarial Networks [[pdf]](https://arxiv.org/pdf/1805.11291.pdf) | | arXiv | 2018 |
+| GAN | MRI | Brain | Medical Image Synthesis for Data Augmentation and Anonymization using Generative Adversarial Networks [[pdf]](https://arxiv.org/pdf/1807.10225.pdf) | | arXiv | 2018 |
+| GAN | CT, MRI | Brain | GAN Augmentation: Augmenting Training Data using Generative Adversarial Networks [[pdf]](https://arxiv.org/pdf/1810.10863.pdf) | | arXiv | 2018 |
+| GAN | CT | Liver | GAN-based Synthetic Medical Image Augmentation for increased CNN Performance in Liver Lesion Classification [[pdf]](https://arxiv.org/pdf/1803.01229.pdf) | | arXiv | 2018 |
+
+
 #### Other tasks
 - 
 
