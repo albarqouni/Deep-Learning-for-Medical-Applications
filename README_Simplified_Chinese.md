@@ -54,8 +54,7 @@
 ## 目录
 ### 深度学习
 * [自编码器/ 栈式自编码器](#autoencoders--stacked-autoencoders)
-* [卷积神经网络]
-(#convolutional-neural-networks)
+* [卷积神经网络](#convolutional-neural-networks)
 * [循环神经网络](#recurrent-neural-networks)
 * [生成对抗网络](#generative-adversarial-networks)
 
@@ -126,6 +125,7 @@
 | ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
 | U-Net  | - | - | U-net: Convolutional networks for biomedical image segmentation | | MICCAI | 2015|
 | FCN   | MRI | 头颈 | Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation [[pdf]](https://arxiv.org/pdf/1603.05959) | | arXiv | 2016 |
+| U-Net   | CT | 头颈 | AnatomyNet: Deep learning for fast and fully automated whole‐volume segmentation of head and neck anatomy [[pdf]](https://www.researchgate.net/profile/Wentao_Zhu4/publication/329224429_AnatomyNet_Deep_Learning_for_Fast_and_Fully_Automated_Whole-volume_Segmentation_of_Head_and_Neck_Anatomy/links/5c075ae4458515ae5447b0eb/AnatomyNet-Deep-Learning-for-Fast-and-Fully-Automated-Whole-volume-Segmentation-of-Head-and-Neck-Anatomy.pdf) | | Medical Physics | 2018 |
 | FCN   | CT | 肝，肝癌 | Automatic Liver and Lesion Segmentation in CT Using Cascaded Fully Convolutional Neural Networks and 3D Conditional Random Fields  [[pdf]](https://arxiv.org/abs/1610.02177) | | MICCAI | 2016 |
 | 3D-CNN | MRI | 脊柱 | Model-Based Segmentation of Vertebral Bodies from MR Images with 3D CNNs | | MICCAI | 2016 |
 | FCN   | CT | 肝，肝癌 | Automatic Liver and Tumor Segmentation of CT and MRI Volumes using Cascaded Fully Convolutional Neural Networks [[pdf]](https://arxiv.org/abs/1702.05970) | | arXiv | 2017 |
@@ -154,8 +154,15 @@
 | CNN | CS-MRI | | A Deep Cascade of Convolutional Neural Networks for Dynamic MR Image Reconstruction [pdf](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8067520) | | IEEE-TMI | 2017 |
 | GAN | CS-MRI | | Deep Generative Adversarial Networks for Compressed Sensing Automates MRI [pdf](https://www.doc.ic.ac.uk/~bglocker/public/mednips2017/med-nips_2017_paper_7.pdf) | | NIPS | 2017 |
 
-#### 其他
-- 
+#### 图像合成
+| 计算机技术 | 医学技术 | 目标区域 | 标题| 数据库 | J/C | 年份 |
+| ------ | ----------- | ----------- | ----------- |---|----------- | ---- |
+| GAN | RGB (Microscopy) | 红细胞 | Red blood cell image generation for data augmentation using Conditional Generative Adversarial Networks [[pdf]](https://arxiv.org/abs/1901.06219) | | arXiv | 2019 |
+| GAN | MRI | 大脑 | Learning Data Augmentation for Brain Tumor Segmentation with Coarse-to-Fine Generative Adversarial Networks [[pdf]](https://arxiv.org/pdf/1805.11291.pdf) | | arXiv | 2018 |
+| GAN | MRI | 大脑 | Medical Image Synthesis for Data Augmentation and Anonymization using Generative Adversarial Networks [[pdf]](https://arxiv.org/pdf/1807.10225.pdf) | | arXiv | 2018 |
+| GAN | CT, MRI | 大脑 | GAN Augmentation: Augmenting Training Data using Generative Adversarial Networks [[pdf]](https://arxiv.org/pdf/1810.10863.pdf) | | arXiv | 2018 |
+| GAN | CT | 肝脏 | GAN-based Synthetic Medical Image Augmentation for increased CNN Performance in Liver Lesion Classification [[pdf]](https://arxiv.org/pdf/1803.01229.pdf) | | arXiv | 2018 |
 
+#### 其他
 
 ## 引用 
